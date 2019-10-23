@@ -52,5 +52,7 @@ while True:
    
     if cv2.waitKey(1) & 0xFF==ord('q') :
         break
+        # y mital dena r
+        cv2.cvtColor(bhonda,cv2.cvtBGR2GRAY)
         
         
